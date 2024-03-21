@@ -27,7 +27,7 @@ const AboutSection = () => {
           <img src="/assets/vision.jpeg" alt="Vision Icon" className="vision-image" />
         </div>
         <div className="center-button">
-          <Link to="/about" className="learn-more-button">More About Us</Link>
+          <Link to="/about" className="learn-more-button">MORE ABOUT US</Link>
         </div>
       </section>
     );
