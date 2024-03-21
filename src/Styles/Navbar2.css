@@ -1,0 +1,37 @@
+.second-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the right end */
+    background-color: #fcfbfa; /* Background color of the navbar */
+    padding: 10px 20px; /* Padding around navbar content */
+  }
+  
+  .navbar-logo {
+    width: 50px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+  
+  .second-navbar-nav {
+    display: flex;
+  }
+  
+  .second-nav-link {
+    color: #0a0909; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Add margin between navigation links */
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+  }
+  
+  .second-nav-link:last-child {
+    margin-right: 10px; /* Remove margin from the last link */
+  }
+  
+  .navbar-logo {
+    width: 120px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+    margin-right: 10px; /* Add margin to separate the logo from the navigation links */
+  }
+  
+  

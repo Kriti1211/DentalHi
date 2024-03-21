@@ -1,0 +1,65 @@
+.background-section {
+    background-image: url('/public/assets/doc2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center;
+    align-items: flex-start; /* Align text to the left */
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Add padding to the left for better readability */
+  }
+  
+  .background-content {
+    color: rgb(10, 8, 8);
+    margin-bottom: 20px;
+    font-size:xx-large; 
+    margin-left: 20px;/* Add margin at the bottom to separate from buttons */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column; /* Align buttons in a column */
+  }
+  .book-appointment-button,
+  .hands-on-booking-button {
+    padding: 8px 12px; /* Adjust padding to make the buttons narrower */
+    background-color: #a22020;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 300px;
+  }
+  
+
+  
+  .book-appointment-button:hover,
+  .hands-on-booking-button:hover {
+    background-color: #871717;
+  }
+  
+  .about-heading {
+    text-align: center;
+    margin-bottom: 30px; 
+    font-size:x-large;
+    /* Add margin bottom for spacing */
+  }
+  
+  .about-heading h2 {
+    font-size: 24px;
+    color: #070707; /* Heading color */
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+     /* Add margin bottom for spacing */
+  }
+  
+  .about-heading p {
+    color: #666; /* Paragraph text color */
+  }
+  
