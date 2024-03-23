@@ -72,7 +72,7 @@ const Services = () => {
             </div><br/><br/>
             <div className="review-section">
             
-                <div className="review-content">
+                <div className="review-content1">
                     <h1>Loved by thousands of people</h1>
                     <p>
                         To see a smile makeover can accomplish, take a look at our dentistry before 
@@ -91,7 +91,7 @@ const Services = () => {
                 </p>
                 <div class="review-box">
                     <img src="/assets/avatar.jpeg" alt="Reviewer Avatar"/>
-                    <div class="review-content">
+                    <div class="review-content2">
                  
                 <p>Definitely recommend DentalHiFi. The dentist and staff were very friendly thorough 
                     with explaining everything. The dentist was amazing. I couldn't believe
