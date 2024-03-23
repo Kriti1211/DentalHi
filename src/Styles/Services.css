@@ -131,6 +131,9 @@
     border-color: #030303;
     background-color: rgb(237, 140, 140);
 }
+.review-images img:hover {
+    transform: scale(1.1); /* Increase scale to 1.1 on hover */
+}
 
 .review-content1 {
     margin-bottom: 20px;
