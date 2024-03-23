@@ -65,5 +65,15 @@
   .learn-more-button:hover {
     background-color: #cfeaea;
   }
+ 
+  
+  .additional-image {
+    display: flex;
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
   
   

@@ -5,7 +5,6 @@ import "../Styles/AboutSection.css";
 const AboutSection = () => {
     return (
       <section className="about-section">
-        
         <div className="mission">
           <img src="/assets/our-mission.jpeg" alt="Our Mission" className="about-image" />
           <div>
@@ -14,7 +13,7 @@ const AboutSection = () => {
               intial stages thus to limit the further complications
             </p>
           </div>
-          <img src="/assets/mission.jpeg" alt="Mission Icon" className="mission-image" />
+          <img src="/assets/mission.jpeg" alt="Icon" className="mission-image" />
         </div>
         <div className="vision">
           <img src="/assets/our-vision.jpeg" alt="Our Vision" className="about-image" />
@@ -24,13 +23,32 @@ const AboutSection = () => {
               services to our community
             </p>
           </div>
-          <img src="/assets/vision.jpeg" alt="Vision Icon" className="vision-image" />
+          <img src="/assets/vision.jpeg" alt="Icon" className="vision-image" />
         </div>
         <div className="center-button">
           <Link to="/about" className="learn-more-button">MORE ABOUT US</Link>
+          <h4>Featured In</h4>
         </div>
+        <div className="additional-image">
+          <a href="https://firsthealth.com/" target="_blank" rel="noreferrer">
+            <img src="/assets/firstimage.png" alt="First" className="additional-image" />
+          </a>
+          <a href="https://www.providence.org/" target="_blank" rel="noreferrer">
+            <img src="/assets/providence.jpg" alt="Providence" className="additional-image" />
+          </a>
+          <a href="https://www.cardinalhealth.com/" target="_blank" rel="noreferrer">
+            <img src="/assets/cardinal.jpg" alt="cardinal" className="additional-image" />
+          </a>
+          <a href="https://www.emblemhealth.com/" target="_blank" rel="noreferrer">
+            <img src="/assets/Emblem.jpeg" alt="Emblem" className="additional-image" />
+          </a>
+          
+        </div>
+        
       </section>
+      
     );
 }
 
 export default AboutSection;
+
