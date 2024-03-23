@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Services.css'; // Import CSS file for styling
-
+import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div className="services-container">
@@ -47,7 +47,13 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            <div className="center-button">
+          <Link to="/all_services" className="learn-more-button" target="_blank" rel="noreferrer">VIEW ALL SERVICES</Link>
+          
         </div>
+
+        </div>
+        
     );
 }
 
