@@ -1,0 +1,89 @@
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/assets/teeth.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    filter: blur(10px); /* Optional: Add blur effect */
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: rgb(3, 3, 3);
+    
+}
+
+.background-container h1{
+    text-align: center;
+    color :rgb(237, 238, 171);
+    font-weight: bolder;
+    font-size: 80px;
+
+}
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.book-now-button{
+    text-align: center;
+    color: #f4f5f6;
+    font-size: x-large;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 450px;
+    height:70px;
+    background-color: #b10505;
+}
+.book-now-button:hover{
+    background-color: #cb1111;
+}

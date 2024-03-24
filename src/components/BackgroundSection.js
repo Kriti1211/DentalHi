@@ -11,10 +11,10 @@ const BackgroundSection = () => {
         <p>Dental and oral health is an essential part<br>
         </br> of your overall health and well-being</p>
         <div className="button-group">
-        <Link to="/book-appointment" className="nav-link">
+        <Link to="/book-appointment" className="nav-link" target="_blank" rel="noreferrer">
             <button className="book-appointment-button">BOOK APPOINTMENT</button>
           </Link>
-          <Link to="/handson-booking" className="nav-link">
+          <Link to="/handson-booking" className="nav-link" target="_blank" rel="noreferrer">
             <button className="hands-on-booking-button">BOOK A HANDSON</button>
           </Link>
         </div>

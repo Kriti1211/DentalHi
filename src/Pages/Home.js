@@ -4,6 +4,7 @@ import Navbar2 from "../components/Navbar2";
 import BackgroundSection from "../components/BackgroundSection";
 import AboutSection from "../components/AboutSection";
 import Services from "../components/Services";
+import Book from "../components/Book";
 function Home() {
   return (
     <div className="home-section">
@@ -12,6 +13,7 @@ function Home() {
       <BackgroundSection/>
       <AboutSection/>
       <Services/>
+      <Book/>
     </div>
   );
 }
