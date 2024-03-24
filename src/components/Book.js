@@ -54,8 +54,18 @@ const Book = () => {
                     </div>
                     <button type="submit">Submit</button>
                 </form>
+                <div className='download-images'>
+                
+                       <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/apple.jpeg" alt="App store" /></a><br/><br/><br/><br/>
+                        <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/android.jpeg" alt="Google play store" /></a>
+                        
+                        </div>
             </div>
-        </div>
+            
+            
+            </div>
     );
 }
 

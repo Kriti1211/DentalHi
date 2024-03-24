@@ -87,3 +87,19 @@ button:hover {
 .book-now-button:hover{
     background-color: #cb1111;
 }
+.download-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.download-images img {
+    align-items: center;
+    width: 280px;
+    border-radius: 180px;
+    margin-top: -500px; 
+    padding: 150px;
+    margin-bottom: 20px;
+    justify-content: space-between;/* Adjust margin as needed */
+}
