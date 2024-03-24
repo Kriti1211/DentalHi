@@ -7,7 +7,7 @@ const SecondNavbar = () => {
     <nav className="second-navbar">
       <img src="/assets/logo.jpeg" alt="Logo" className="navbar-logo" /> {/* Image at the left corner */}
       <div className="second-navbar-nav">
-        <Link to="/" className="second-nav-link" target="_blank" rel="noreferrer">Home</Link>
+        <Link to="/" className="second-nav-link" >Home</Link>
         <Link to="/about" className="second-nav-link" target="_blank" rel="noreferrer">About</Link>
         <Link to="/products" className="second-nav-link" target="_blank" rel="noreferrer">Products</Link>
         <Link to="/services" className="second-nav-link" target="_blank" rel="noreferrer">Services</Link>

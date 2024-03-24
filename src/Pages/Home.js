@@ -5,6 +5,7 @@ import BackgroundSection from "../components/BackgroundSection";
 import AboutSection from "../components/AboutSection";
 import Services from "../components/Services";
 import Book from "../components/Book";
+import Footer from "../components/Footer";
 function Home() {
   return (
     <div className="home-section">
@@ -14,6 +15,7 @@ function Home() {
       <AboutSection/>
       <Services/>
       <Book/>
+      <Footer/>
     </div>
   );
 }
