@@ -23,7 +23,7 @@ const Services = () => {
                     <h3>THERAPIYA</h3>
                     <img src="/assets/service2.jpeg" alt="Service 2" />
                     <div className="service-content">
-                        <p>Our dental therapists are trained to take X-rays, provide hygiene services.</p>
+                        <p>Our dental therapists are trained to take X-rays, provide hygiene services.</p><br/><br/><br/>
                         <a href="/service2" target="_blank" rel="noreferrer" className="service-link">Learn More</a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Services = () => {
                     <h3>TOOTH DECAY</h3>
                     <img src="/assets/service3.jpeg" alt="Service 3" />
                     <div className="service-content">
-                        <p>We provide all treatments that affect your teeth and gums. Also, replacement of teeth.</p>
+                        <p>We provide all treatments that affect your teeth and gums. Also, replacement of teeth.</p><br/><br/>
                         <a href="/service3" target="_blank" rel="noreferrer" className="service-link">Learn More</a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Services = () => {
                     <div className="news-content">
                         <h3>What is best for whitening teeth?</h3>
                         <p>Whitening or "tooth bleaching", is the most common
-                            cosmetic dental procedure
+                            cosmetic dental procedure...
                         </p>
                         <a href="/news1" target="_blank" rel="noreferrer" className="news-link">Read More</a>
                     </div>
