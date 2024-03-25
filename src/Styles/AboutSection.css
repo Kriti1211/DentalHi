@@ -67,13 +67,30 @@
   }
  
   
-  .additional-image {
+  .additional-images-container {
     display: flex;
-    width: auto;
-    height: 100px;
-    padding: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    justify-content: space-between; /* Adjust as needed */
   }
-  
-  
+  .additional-image1 {
+    width: 200px;
+    height: 100px; /* Adjust the width of the images */
+    margin: 10px; /* Adjust margin as needed */
+  }
+  .additional-image2 {
+    width: 150px;
+    height: 60px; /* Adjust the width of the images */
+    margin: 10px;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  .additional-image3 {
+    width: 150px;
+    height: 40px; /* Adjust the width of the images */
+    margin: 10px; 
+    margin-top: 22px;/* Adjust margin as needed */
+  }
+  .additional-image4 {
+    width: 200px;
+    height: 85px; /* Adjust the width of the images */
+    margin: 10px;
+    margin-top: 15px; /* Adjust margin as needed */
+  }

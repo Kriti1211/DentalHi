@@ -29,22 +29,29 @@ const AboutSection = () => {
           <Link to="/about" className="learn-more-button">MORE ABOUT US</Link>
           <h4>Featured In</h4>
         </div>
-        <div className="additional-image">
-          <a href="https://firsthealth.com/" target="_blank" rel="noreferrer">
-            <img src="/assets/firstimage.png" alt="First" className="additional-image" />
-          </a>
-          <a href="https://www.providence.org/" target="_blank" rel="noreferrer">
-            <img src="/assets/providence.jpg" alt="Providence" className="additional-image" />
-          </a>
-          <a href="https://www.cardinalhealth.com/" target="_blank" rel="noreferrer">
-            <img src="/assets/cardinal.jpg" alt="cardinal" className="additional-image" />
-          </a>
-          <a href="https://www.emblemhealth.com/" target="_blank" rel="noreferrer">
-            <img src="/assets/Emblem.jpeg" alt="Emblem" className="additional-image" />
-          </a>
-          
-        </div>
-        
+        <div className="additional-images-container">
+  <div className="additional-image1">
+    <a href="https://firsthealth.com/" target="_blank" rel="noreferrer">
+      <img src="/assets/firstimage.png" alt="First" className="additional-image1" />
+    </a>
+  </div>
+  <div className='additional-image2'>
+    <a href="https://www.providence.org/" target="_blank" rel="noreferrer">
+      <img src="/assets/providence.jpg" alt="Providence" className="additional-image2" />
+    </a>
+  </div>
+  <div className='additional-image3'>
+    <a href="https://www.cardinalhealth.com/" target="_blank" rel="noreferrer">
+      <img src="/assets/cardinal.jpg" alt="cardinal" className="additional-image3" />
+    </a>
+  </div>
+  <div className='additional-image4'>
+    <a href="https://www.emblemhealth.com/" target="_blank" rel="noreferrer">
+      <img src="/assets/Emblem.jpeg" alt="Emblem" className="additional-image4" />
+    </a>
+  </div>
+</div>
+
       </section>
       
     );

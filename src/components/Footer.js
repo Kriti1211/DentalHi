@@ -15,14 +15,21 @@ const Footer = () => {
                         <div className='social-images'>
                        <a href="https://www.linkedin.com/company/dentalhifi/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/linkedin.jpeg" alt="Linkedin" /></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer">
+
+                        <a href="https://www.instagram.com/dentalhifi?igsh=MTQybzc1ZWN2aHhjYQ==" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/instagram.jpeg" alt="Instagram" /></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer">
-                        <img src="/assets/fb.jpeg" alt="Facebook" /></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer">
+
+                        <a href="https://x.com/DentalHiFi?t=2d77Cn3GXb5qBoVPBmEjxA&s=08" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/twitter.jpeg" alt="Twitter" /></a>
+
+                        <a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/youtube.jpeg" alt="Facebook" /></a>
+                        
                         <a href="/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/whatsapp.jpeg" alt="Whatsapp" /></a>
+
+                        <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/fb.jpeg" alt="Facebook" /></a>
                         </div>
                         
                     </ul>
@@ -42,9 +49,20 @@ const Footer = () => {
                     <ul>
                         <li><a href="https://www.linkedin.com/company/dentalhifi/"
                         target="_blank" rel="noreferrer">LinkedIn</a></li>
+
+                        <li><a href="https://www.instagram.com/dentalhifi?igsh=MTQybzc1ZWN2aHhjYQ=="
+                        target="_blank" rel="noreferrer">Instagram</a></li>
+
+                        <li><a href="https://x.com/DentalHiFi?t=2d77Cn3GXb5qBoVPBmEjxA&s=08"
+                        target="_blank" rel="noreferrer">Twitter</a></li>
+                        
+                        <li><a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL"
+                        target="_blank" rel="noreferrer">Youtube</a></li>
+
+                        <li><a href="/"
+                        target="_blank" rel="noreferrer">WhatsApp</a></li>
+
                         <li><a href="/">Facebook</a></li>
-                        <li><a href="/">Twitter</a></li>
-                        <li><a href="/">Instagram</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">
