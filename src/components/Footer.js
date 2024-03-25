@@ -25,7 +25,7 @@ const Footer = () => {
                         <a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/youtube.jpeg" alt="Facebook" /></a>
                         
-                        <a href="/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://web.whatsapp.com/send?phone=919653392272" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/whatsapp.jpeg" alt="Whatsapp" /></a>
 
                         <a href="/" target="_blank" rel="noopener noreferrer">
@@ -59,7 +59,9 @@ const Footer = () => {
                         <li><a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL"
                         target="_blank" rel="noreferrer">Youtube</a></li>
 
-                        <li><a href="/"
+                        <li><a href="https://web.whatsapp.com/send?phone=919653392272"
+                        // or use
+                        // https://wa.me/+91 96533 92272
                         target="_blank" rel="noreferrer">WhatsApp</a></li>
 
                         <li><a href="/">Facebook</a></li>
