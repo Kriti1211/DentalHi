@@ -17,33 +17,33 @@
     text-align: center;
 }
 
-.footer-column h3 {
-   
+.footer-column h3 {   
     font-size: 18px;
 }
 
 .footer-column ul {
-    list-style:none;
+    list-style: none;
     padding: 0;
 }
 
 .footer-column ul li {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .footer-column ul li a {
     color: #fff;
     text-decoration: none;
+    font-size:12px;
 }
 
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
+
 .footer-bottom {
     background-color: #245aab;
     color: #fff; /* Change color to white */
-    margin-top: 50px;
     text-align: center;
 }
 
@@ -58,12 +58,14 @@
 
 .footer-bottom p {
     margin: 0;
-    font-size: 14px;
+    font-size: 10px;
+    height: 20px;
+    margin-top: 35px;
 }
-.social-images img{
-    width:22px;
-    height:20px;
+
+.social-images img {
+    width: 22px;
+    height: 20px;
     padding: 5px;
     border-radius: 10px;
 }
-

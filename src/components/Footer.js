@@ -28,7 +28,8 @@ const Footer = () => {
                         <a href="https://web.whatsapp.com/send?phone=919653392272" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/whatsapp.jpeg" alt="Whatsapp" /></a>
 
-                        <a href="/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61557913763652"
+                        target="_blank" rel="noreferrer">
                         <img src="/assets/fb.jpeg" alt="Facebook" /></a>
                         </div>
                         
@@ -64,23 +65,8 @@ const Footer = () => {
                         // https://wa.me/+91 96533 92272
                         target="_blank" rel="noreferrer">WhatsApp</a></li>
 
-                        <li><a href="/">Facebook</a></li>
-                    </ul>
-                </div>
-                <div className="footer-column">
-                    <h3>PRODUCTS</h3>
-                    <ul>
-                        <li><a href="/products" target="_blank" rel="noreferrer">Floss</a></li>
-                        <li><a href="/products" target="_blank" rel="noreferrer">Mouth Wash</a></li>
-                        <li><a href="/products" target="_blank" rel="noreferrer">Dispenser</a></li>
-                    </ul>
-                </div>
-                <div className="footer-column">
-                    <h3>EDUCATION</h3>
-                    <ul>
-                        <li><a href="/blog" target="_blank" rel="noreferrer">Blog</a></li>
-                        <li><a href="/video" target="_blank" rel="noreferrer">Videos</a></li>
-                        <li><a href="/equipment" target="_blank" rel="noreferrer">Equipment</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61557913763652"
+                        target="_blank" rel="noreferrer">Facebook</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">
