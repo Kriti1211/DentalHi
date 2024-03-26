@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; /* Align items to the right end */
-    background-color: #fcfbfa; /* Background color of the navbar */
+    background-color: #fff; /* Background color of the navbar */
     padding: 10px 20px; /* Padding around navbar content */
   }
   
