@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: space-between; /* Align items to the right end */
     background-color: #fff; /* Background color of the navbar */
-    padding: 10px 20px; /* Padding around navbar content */
+    padding: 10px 20px;
+     /* Padding around navbar content */
   }
   
   .navbar-logo {
@@ -13,6 +14,7 @@
   
   .second-navbar-nav {
     display: flex;
+    
   }
   
   .second-nav-link {
@@ -20,7 +22,7 @@
     text-decoration: none; /* Remove underline from links */
     margin-right: 20px; /* Add margin between navigation links */
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    
     font-weight:500;
   }
   
