@@ -91,13 +91,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: 5px;
+   
 }
 
 .download-images img {
     align-items: center;
     width: 200px;
-    border-radius: 180px;
     margin-top: -500px; 
     padding: 75px;
     margin-bottom: 20px;
