@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-brand">
       <img src="/assets/Di2.jpeg" alt="Company Icon" className='location-icon'/> 
-        <Link to="/" className="navbar-logo"> Dental Hi-Fi</Link>
+        <Link to="/" className="navbar-logo"> Dental HiFi</Link>
       </div>
       <div className="navbar-search">
         <Link to="/search" className="nav-link">

@@ -18,7 +18,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    background-color: #cce4ee;
+    background-color: #c9dbf4;
     
 }
 
@@ -74,7 +74,7 @@
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    background-color:  #cce4ee;
+    background-color:  #c9dbf4;
 }
 
 .news-card:hover {
