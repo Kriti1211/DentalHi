@@ -28,12 +28,14 @@
     background-color: #a22020;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 10px;
+    height:60px;
     align-items: center;
     width: 300px;
+    font-weight: bold;
   }
   
 

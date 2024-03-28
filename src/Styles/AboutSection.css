@@ -51,12 +51,12 @@
   .learn-more-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f8f6f6;
-    color: rgb(97, 189, 218);
+    background-color: #fff;
+    color: #55c0ca;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: background-color 0.3s ease;
-    border: 5px solid rgb(97, 189, 218);
+    border: 5px solid #55c0ca;
     width: 250px;
     margin-top: 30px;
     height: 25px;
@@ -65,7 +65,7 @@
   }
   
   .learn-more-button:hover {
-    background-color: #cfeaea;
+    background-color: #f1f6f6;
   }
  
   
