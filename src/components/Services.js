@@ -71,8 +71,7 @@ const Services = () => {
                 <Link to="/all_articles" className="learn-more-button" target="_blank" rel="noreferrer">VIEW ALL ARTICLES</Link>
             </div><br/><br/>
             <div className="review-section">
-            
-                <div className="review-content1">
+                <div className="review-content">
                     <h1>Loved by thousands of people</h1>
                     <p>
                         To see a smile makeover can accomplish, take a look at our dentistry before 
@@ -80,30 +79,13 @@ const Services = () => {
                     </p>
                 </div>
                 <div className="review-images">
+                    
                     <img src="/assets/review1.jpeg" alt="Review 1" />
                     <img src="/assets/review2.jpeg" alt="Review 2" />
                     <img src="/assets/review3.jpeg" alt="Review 3" />
                     
                 </div>
-                <p>Before and after treatment<br/><br/><br/>
-                Our clinic has been loved by thousands of people across the world.
-                    Hear what they have to say.
-                </p>
-                <div class="review-box">
-                    <img src="/assets/avatar.jpeg" alt="Reviewer Avatar"/>
-                    <div class="review-content2">
-                 
-                <p>Definitely recommend DentalHiFi. The dentist and staff were very friendly thorough 
-                    with explaining everything. The dentist was amazing. I couldn't believe
-                    how fast and painless the treatment was.</p>
-                    <br/>
-                <h3>Park haller</h3>
-                <p>Founder@sandy stones</p>
-                </div>
-                </div>
-                <div className="center-button">
-                <Link to="/all_reviews" className="learn-more-button" target="_blank" rel="noreferrer">VIEW MORE</Link>
-            </div>
+                <p>Before and after treatment</p>
             </div>
         </div>
     );

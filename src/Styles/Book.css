@@ -35,43 +35,43 @@
     font-size: 80px;
 
 }
-.form-group {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    width: 300px;
+input[type="email"]{
+    padding: 5px 10px; /* Increase padding to make elements larger */
+    font-size: 14px; 
+    /* Increase font size */
 }
+
+
+/* Assuming the form-group class wraps each label and input */
+.form-group {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+  
+    /* Increase spacing between form groups */
+}
+
 
 label {
-    width: 100px;
-    margin-right: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    font-size: 16px;
-    outline: none;
+    width: 50px; /* Increase the width of the label */
+    margin-right: 10px;   
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #070707;
     color: #fff;
     border: none;
-    border-radius: 30px;
+    height: 35px; /* Setting height */
+    text-align: center; /* Centering text */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 10px;
     outline: none;
-    margin-top: 20px;
+    font-weight: bold;
+    /* Remove margin-top */
 }
-
 button:hover {
-    background-color: #0056b3;
+    background-color: #333436;
 }
 
 .book-now-button{
@@ -88,18 +88,26 @@ button:hover {
 .book-now-button:hover{
     background-color: #871717;
 }
-.download-images {
-    display: flex;
+
+.download-images  {
+    margin-left: 800px;
     flex-direction: column;
     align-items: flex-end;
-   
 }
 
 .download-images img {
     align-items: center;
     width: 200px;
-    margin-top: -500px; 
-    padding: 75px;
+    padding: 10px;
     margin-bottom: 20px;
     justify-content: space-between;/* Adjust margin as needed */
+}
+
+.visit p{
+    margin-left: 810px;
+}
+.visit img{
+    margin-top: -600px;
+    margin-left: 925px;
+    margin-bottom: 50px;
 }

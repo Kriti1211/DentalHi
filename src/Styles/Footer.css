@@ -14,11 +14,11 @@
 .footer-column {
     flex: 1;
     margin: 0 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-column h3 {   
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .footer-column ul {
@@ -27,16 +27,19 @@
 }
 
 .footer-column ul li {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
 }
 
 .footer-column ul li a {
     color: #fff;
     text-decoration: none;
-    font-size:12px;
+    font-size:13px;
 }
-
+.footer-column img{
+    height:13px;
+    width:15px;
+}
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
@@ -64,6 +67,8 @@
 }
 
 .social-images img {
+    margin-top: 20px;;
+    align-self:flex-end;
     width: 22px;
     height: 20px;
     padding: 5px;

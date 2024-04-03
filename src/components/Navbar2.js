@@ -7,12 +7,12 @@ const SecondNavbar = () => {
     <nav className="second-navbar">
       <img src="/assets/logo.jpeg" alt="Logo" className="navbar-logo" /> {/* Image at the left corner */}
       <div className="second-navbar-nav">
-        <Link to="/" className="second-nav-link" >Home</Link>
-        <Link to="/about" className="second-nav-link" target="_blank" rel="noreferrer">About</Link>
-        <Link to="/products" className="second-nav-link" target="_blank" rel="noreferrer">Products</Link>
+        <Link to="/about" className="second-nav-link" target="_blank" rel="noreferrer">About Us</Link>
         <Link to="/services" className="second-nav-link" target="_blank" rel="noreferrer">Services</Link>
         <Link to="/team" className="second-nav-link" target="_blank" rel="noreferrer">Team</Link>
         <Link to="/testimonials" className="second-nav-link" target="_blank" rel="noreferrer">Testimonials</Link>
+      
+        <Link to="/review" className="second-nav-link" target="_blank" rel="noreferrer">Review</Link>
         <Link to="/blog" className="second-nav-link" target="_blank" rel="noreferrer">Blog</Link>
       </div>
     </nav>
@@ -20,5 +20,3 @@ const SecondNavbar = () => {
 }
 
 export default SecondNavbar;
-
-

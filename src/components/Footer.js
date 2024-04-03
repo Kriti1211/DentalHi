@@ -8,10 +8,11 @@ const Footer = () => {
             <div className="footer-column">
                     <h3>DENTAL HIFI</h3>
                     <ul>
-                        <li><a href="/book-appointment" target="_blank" rel="noreferrer">BOOK AN APPOINTMENT</a></li>
-                        <li><a href="/handson-booking" target="_blank" rel="noreferrer">BOOK HANDSON</a></li>
-                        <li><a href="https://maps.google.com/?q=Kharghar, Navi Mumbai" target="_blank" rel="noopener noreferrer" className="nav-link">Kharghar, Navi Mumbai</a></li>
-                        <li><a href="tel:+919653392272">9653392272</a></li>
+                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/book-appointment" target="_blank" rel="noreferrer">BOOK AN APPOINTMENT</a></li>
+                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/handson-booking" target="_blank" rel="noreferrer">BOOK HANDSON</a></li>
+                        <li><img src="/assets/loc.png" alt="Location Icon" className="location-icon" /><a href="https://maps.google.com/?q=Kharghar, Navi Mumbai" target="_blank" rel="noopener noreferrer" className="nav-link">Kharghar, Navi Mumbai</a></li>
+                        <li><img src="/assets/call.png" alt="Phone Icon" className='location-icon'/><a href="tel:+919653392272">9653392272</a></li>
+                        <li><img src="/assets/email.png" alt="Email Icon" className='location-icon'/><a href="mailto:dentalhifi@gmail.com">dentalhifi@gmail.com</a></li>
                         <div className='social-images'>
                        <a href="https://www.linkedin.com/company/dentalhifi/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/linkedin.jpeg" alt="Linkedin" /></a>
@@ -25,7 +26,10 @@ const Footer = () => {
                         <a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/youtube.jpeg" alt="Facebook" /></a>
                         
-                        <a href="https://web.whatsapp.com/send?phone=919653392272" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+919653392272" 
+                         // or use
+                        // https://wa.me/+91 96533 92272
+                        target="_blank" rel="noopener noreferrer">
                         <img src="/assets/whatsapp.jpeg" alt="Whatsapp" /></a>
 
                         <a href="https://www.facebook.com/profile.php?id=61557913763652"
@@ -36,46 +40,32 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-column">
-                    <h3>HOME PAGE</h3>
+                    <h3>QUICK LINKS</h3>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about" target="_blank" rel="noreferrer">About</a></li>
+                        
+                        <li><a href="/about" target="_blank" rel="noreferrer">About Us</a></li>
                         <li><a href="/services" target="_blank" rel="noreferrer">Services</a></li>
-                        <li><a href="/team" target="_blank" rel="noreferrer">Dentists Team</a></li>
+                        <li><a href="/team" target="_blank" rel="noreferrer">Team</a></li>
                         <li><a href="/testimonials" target="_blank" rel="noreferrer">Testimonials</a></li>
+                        <li><a href="/ecommerce" target="_blank" rel="noreferrer">E-Commerce</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">
-                    <h3>FOLLOW US</h3>
+                    <h3>EDUCATION</h3>
                     <ul>
-                        <li><a href="https://www.linkedin.com/company/dentalhifi/"
-                        target="_blank" rel="noreferrer">LinkedIn</a></li>
-
-                        <li><a href="https://www.instagram.com/dentalhifi?igsh=MTQybzc1ZWN2aHhjYQ=="
-                        target="_blank" rel="noreferrer">Instagram</a></li>
-
-                        <li><a href="https://x.com/DentalHiFi?t=2d77Cn3GXb5qBoVPBmEjxA&s=08"
-                        target="_blank" rel="noreferrer">Twitter</a></li>
+                        <li><a href="/videos" target="_blank" rel="noreferrer">Videos</a></li>
+                        <li><a href="/equipments" target="_blank" rel="noreferrer">Equipments</a></li>
+                  
                         
-                        <li><a href="https://youtube.com/@DentalHiFi?si=hW8eCMco-qlGSyDL"
-                        target="_blank" rel="noreferrer">Youtube</a></li>
-
-                        <li><a href="https://web.whatsapp.com/send?phone=919653392272"
-                        // or use
-                        // https://wa.me/+91 96533 92272
-                        target="_blank" rel="noreferrer">WhatsApp</a></li>
-
-                        <li><a href="https://www.facebook.com/profile.php?id=61557913763652"
-                        target="_blank" rel="noreferrer">Facebook</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">
                     <h3>CONTACT US</h3>
                     <ul>
-                        <li><a href="/apply-for-job" target="_blank" rel="noreferrer">Apply for job</a></li>
+                        <li><a href="/apply-for-job" target="_blank" rel="noreferrer">Apply for jobs</a></li>
                         <li><a href="/feedback" target="_blank" rel="noreferrer">Feedback</a></li>
-                        <li><a href="/inquiries" target="_blank" rel="noreferrer">Inquiries</a></li>
-                        <li><a href="/medicines" target="_blank" rel="noreferrer">Medicines</a></li>
+                        <li><a href="/inquiries" target="_blank" rel="noreferrer">Blog</a></li>
+                        
                     </ul>
                 </div>
             </div>
