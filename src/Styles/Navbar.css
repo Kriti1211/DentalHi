@@ -48,6 +48,7 @@
 }
 
 .login-button {
+
   padding: 8px 16px; /* Adjust padding as needed */
   padding-left: 20px; /* Change padding from the left end */
   background-color: #a22020; /* Button background color */
@@ -57,7 +58,7 @@
   cursor: pointer; /* Change cursor to pointer on hover */
   font-size: large;
   font-weight: bold;
-  margin-bottom: 15px;
+  
 }
 
 .login-button:hover {

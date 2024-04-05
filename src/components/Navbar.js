@@ -23,10 +23,7 @@ const Navbar = () => {
         </span>
 
       </div>
-  
-      
-
-      <div className="navbar-login">
+ <div className="navbar-login">
         <Link to="/login" className="nav-link" target="_blank" rel="noreferrer">
     <button className="login-button">Log In / Sign Up</button>
         </Link>
