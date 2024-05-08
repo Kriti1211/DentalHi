@@ -24,7 +24,7 @@ const Navbar = () => {
 
       </div>
  <div className="navbar-login">
-        <Link to="/login" className="nav-link" target="_blank" rel="noreferrer">
+        <Link to="/login" className="nav-link" >
     <button className="login-button">Log In / Sign Up</button>
         </Link>
 </div>

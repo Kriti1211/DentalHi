@@ -15,7 +15,7 @@ const Services = () => {
                     <img src="/assets/service1.jpeg" alt="Service 1" />
                     <div className="service-content">
                         <p>Tooth decay is a cavity in your tooth caused by bacterial infection. Due to poor oral hygiene, the bacteria can infect your tooth enamel.</p>
-                        <a href="/service1" target="_blank" rel="noreferrer" className="service-link">Learn More</a>
+                        <a href="/service1" className="service-link">Learn More</a>
                     </div>
                 </div>
                 {/* Second Card */}
@@ -24,7 +24,7 @@ const Services = () => {
                     <img src="/assets/service2.jpeg" alt="Service 2" />
                     <div className="service-content">
                         <p>Our dental therapists are trained to take X-rays, provide hygiene services.</p><br/><br/><br/>
-                        <a href="/service2" target="_blank" rel="noreferrer" className="service-link">Learn More</a>
+                        <a href="/service2"className="service-link">Learn More</a>
                     </div>
                 </div>
                 {/* Third Card */}
@@ -33,12 +33,12 @@ const Services = () => {
                     <img src="/assets/service3.jpeg" alt="Service 3" />
                     <div className="service-content">
                         <p>We provide all treatments that affect your teeth and gums. Also, replacement of teeth.</p><br/><br/>
-                        <a href="/service3" target="_blank" rel="noreferrer" className="service-link">Learn More</a>
+                        <a href="/service3" className="service-link">Learn More</a>
                     </div>
                 </div>
             </div>
             <div className="center-button">
-                <Link to="/all_services" className="learn-more-button" target="_blank" rel="noreferrer">VIEW ALL SERVICES</Link>
+                <Link to="/all_services" className="learn-more-button">VIEW ALL SERVICES</Link>
             </div>
             <br/><br/><br/>
             <h1>Stay updated with our news</h1>
@@ -53,7 +53,7 @@ const Services = () => {
                         <p>Whitening or "tooth bleaching", is the most common
                             cosmetic dental procedure...
                         </p>
-                        <a href="/news1" target="_blank" rel="noreferrer" className="news-link">Read More</a>
+                        <a href="/news1" className="news-link">Read More</a>
                     </div>
                 </div>
                 <div className="news-card">
@@ -63,12 +63,12 @@ const Services = () => {
                         <h3>Why you should visit a dentist?</h3>
                         <p>PREVENT PLAQUE: Plaque is a sticky deposit 
                             that clings your...</p>
-                        <a href="/news2" target="_blank" rel="noreferrer" className="news-link">Read More</a>
+                        <a href="/news2" className="news-link">Read More</a>
                     </div>
                 </div>
             </div><br/>
             <div className="center-button">
-                <Link to="/all_articles" className="learn-more-button" target="_blank" rel="noreferrer">VIEW ALL ARTICLES</Link>
+                <Link to="/all_articles" className="learn-more-button" >VIEW ALL ARTICLES</Link>
             </div><br/><br/>
             <div className="review-section">
                 <div className="review-content">

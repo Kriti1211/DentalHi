@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="footer-column">
                     <h3>DENTAL HIFI</h3>
                     <ul>
-                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/book-appointment" target="_blank" rel="noreferrer">BOOK AN APPOINTMENT</a></li>
-                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/handson-booking" target="_blank" rel="noreferrer">BOOK HANDSON</a></li>
+                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/book-appointment" >BOOK AN APPOINTMENT</a></li>
+                        <li><img src="/assets/schedule.jpeg" alt="Location Icon" className="location-icon" /><a href="/handson-booking" >BOOK HANDSON</a></li>
                         <li><img src="/assets/loc.png" alt="Location Icon" className="location-icon" /><a href="https://maps.google.com/?q=Kharghar, Navi Mumbai" target="_blank" rel="noopener noreferrer" className="nav-link">Kharghar, Navi Mumbai</a></li>
                         <li><img src="/assets/call.png" alt="Phone Icon" className='location-icon'/><a href="tel:+919653392272">9653392272</a></li>
                         <li><img src="/assets/email.png" alt="Email Icon" className='location-icon'/><a href="mailto:dentalhifi@gmail.com">dentalhifi@gmail.com</a></li>
@@ -32,8 +32,7 @@ const Footer = () => {
                         target="_blank" rel="noopener noreferrer">
                         <img src="/assets/whatsapp.jpeg" alt="Whatsapp" /></a>
 
-                        <a href="https://www.facebook.com/profile.php?id=61557913763652"
-                        target="_blank" rel="noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61557913763652">
                         <img src="/assets/fb.jpeg" alt="Facebook" /></a>
                         </div>
                         
@@ -43,18 +42,18 @@ const Footer = () => {
                     <h3>QUICK LINKS</h3>
                     <ul>
                         
-                        <li><a href="/about" target="_blank" rel="noreferrer">About Us</a></li>
-                        <li><a href="/services" target="_blank" rel="noreferrer">Services</a></li>
-                        <li><a href="/team" target="_blank" rel="noreferrer">Team</a></li>
-                        <li><a href="/testimonials" target="_blank" rel="noreferrer">Testimonials</a></li>
-                        <li><a href="/ecommerce" target="_blank" rel="noreferrer">E-Commerce</a></li>
+                        <li><a href="/about" >About Us</a></li>
+                        <li><a href="/services" >Services</a></li>
+                        <li><a href="/team" >Team</a></li>
+                        <li><a href="/testimonials" >Testimonials</a></li>
+                        <li><a href="/ecommerce" >E-Commerce</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">
                     <h3>EDUCATION</h3>
                     <ul>
-                        <li><a href="/videos" target="_blank" rel="noreferrer">Videos</a></li>
-                        <li><a href="/equipments" target="_blank" rel="noreferrer">Equipments</a></li>
+                        <li><a href="/videos" >Videos</a></li>
+                        <li><a href="/equipments" >Equipments</a></li>
                   
                         
                     </ul>
@@ -62,9 +61,9 @@ const Footer = () => {
                 <div className="footer-column">
                     <h3>CONTACT US</h3>
                     <ul>
-                        <li><a href="/apply-for-job" target="_blank" rel="noreferrer">Apply for jobs</a></li>
-                        <li><a href="/feedback" target="_blank" rel="noreferrer">Feedback</a></li>
-                        <li><a href="/inquiries" target="_blank" rel="noreferrer">Blog</a></li>
+                        <li><a href="/apply-for-job" >Apply for jobs</a></li>
+                        <li><a href="/feedback" >Feedback</a></li>
+                        <li><a href="/inquiries" >Blog</a></li>
                         
                     </ul>
                 </div>

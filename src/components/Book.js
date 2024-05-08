@@ -25,7 +25,7 @@ const Book = () => {
         <div className="background-container">
             <h1>BOOK YOUR VISIT TODAY</h1>
             <div className="button-group">
-                <Link to="/book-appointment" className="nav-link" target="_blank" rel="noreferrer">
+                <Link to="/book-appointment" className="nav-link">
                     <button className="book-now-button">BOOK NOW</button>
                 </Link>
             </div>

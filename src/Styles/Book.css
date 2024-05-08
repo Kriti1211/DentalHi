@@ -99,15 +99,16 @@ button:hover {
     align-items: center;
     width: 200px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     justify-content: space-between;/* Adjust margin as needed */
 }
 
 .visit p{
+   
     margin-left: 810px;
 }
 .visit img{
-    margin-top: -600px;
+    margin-top: -800px;
     margin-left: 925px;
     margin-bottom: 50px;
 }
